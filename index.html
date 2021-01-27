@@ -2,85 +2,108 @@
 <html>
   <head>
     <title>Portfolio</title>
-
+    <meta charset='UTF-8'/>
+    <meta name='viewport'
+      content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
     <link rel="stylesheet" href="styles.css">
   </head>
 
   <body>
-    <div class="menu">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="index.html" class="active">Portfolio</a></li>
-        <li><a href="index.html">Contact</a></li>
-        <li><a href="index.html">About</a></li>
-      </ul>
+    <div class="page">
+      <div class="section menu-container">
+        <div class="section menu">
+          <div class="menu-links">
+            <div><a href="index.html">Home</a></div>
+            <div><a href="index.html" class="active">Portfolio</a></div>
+          </div>
+
+          <div class="menu-title">Brayden Gibbons</div> 
+
+          <div class="menu-info">
+            <div class="contact"><a href="index.html">Contact</a></div>
+            <div class="about"><a href="index.html">About</a></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section header-container">
+        <div class="header">Portfolio</div>
+      </div>
+
+      <div class="section about-me-container">
+        <div class="about-me">
+          <img class="about-me-img" src="https://media-exp1.licdn.com/dms/image/C5603AQGLNthign4PVw/profile-displayphoto-shrink_200_200/0/1600036055228?e=1616630400&v=beta&t=WlQ333ArcmV0KdFuDhX4IfzzIjZsOM9soxWng2sx5ls">
+          <div class="about-me-text">My name is Brayden Gibbons. I am a 22 year Senior at BYU studying 
+            Computer Science with an emphasis in Software Engineering. 
+            I am currently interning at Neighbor Storage as a Software Developer Intern. 
+            In my free time, I spend way too much time coding and reading. On 
+            the beautiful days of the year, you will find me outdoors hiking and 
+            camping with my family.</div>
+        </div>
+      </div>
+      
+      <div class="section content">
+        <div class="projects">
+          <h2>Projects</h2>
+          <ul>
+            <li>Mobile budget app using Flutter</li>
+            <li>Command line music player</li>
+            <li>Twitter clone on Android</li>
+          </ul>
+        </div>
+
+        <div class="experience">
+          <h2>Experience</h2>
+          <ul>
+            <li><strong>BYU Office of Information Technology</strong><br/>
+              <em>January 2020 - Present<br/>
+              Computer Programmer - App Engineering Team</em>
+              <ul>
+                <li>Developed a data marshaling and transfer API that serves applicant information to BYU partners.</li>
+                <li>Designed and built modular application capsules/modules for the new CES academic admissions
+              application using Svelte, HTML, and JavaScript.</li>
+                <li>Developed API queue service to batch synchronize legacy data into an updated data model and
+              database schema</li>
+              <li>Created Terraform scripts to automate the deployment of new services to AWS</li>
+              <li>Built web services to control and verify authorization for administrative systems, provide
+              configuration information to production systems, and populate archival systems/databases with
+              vital applicant information</li>
+              <li>Worked as team lead over 5 student programmers. Helped them create plans to meet their Sprint
+              goals and reach training milestones</li>
+              </ul>
+            </li>
+            <li><strong>BYU OIT Operations and Support Center</strong><br/>
+              <em>March 2019 - January 2020<br/>
+              Provisioner, Senior Analyst</em>
+              <ul>
+                <li>Provisioned and managed access BYU services and systems</li>
+                <li>Created processes to automatically provision/deprovision all university employees</li>
+                <li>Led groups of 10+ analysts and assisted them in resolving complicated issues.</li>
+              </ul>
+            </li>
+            <li><strong>Vegetronix Inc.</strong><br/>
+              <em>December 2014 - August 2016</strong><br/>
+              Firmware Engineer, Electronics Technician, Electronics Assembler</em>
+              <ul>
+                <li>Designed and programmed firmware for the TI MSP430 line of microcontrollers in the C language</li>
+                <li>Trained new employees in assembly and calibration procedures</li>
+                <li>Daily use of debugging tools such as: multimeters, oscilloscopes, etc.</li>
+                <li>Prototyped PCBs from schematics</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact">
+          <h2>Contact</h2>
+          <ul>
+            <li>Email: brayden.gibbons66@gmail.com</li>
+            <li><a href="https://www.linkedin.com/in/brayden-gibbons-aa056b194/">LinkedIn</a></li>
+            <li><a href="https://github.com/bragibbo">Github</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-
-    <h1>Portfolio</h1>
-
-    <hr/>
-    <h2>About</h2>
-    <img src="https://media-exp1.licdn.com/dms/image/C5603AQGLNthign4PVw/profile-displayphoto-shrink_200_200/0/1600036055228?e=1616630400&v=beta&t=WlQ333ArcmV0KdFuDhX4IfzzIjZsOM9soxWng2sx5ls">
-    <p>My name is Brayden Gibbons. I am a 22 year Senior at BYU studying 
-      Computer Science with an emphasis in Software Engineering. 
-      I am currently interning at Neighbor Storage as a Software Developer Intern. 
-      In my free time, I spend way too much time coding and reading. On 
-      the beautiful days of the year, you will find me outdoors hiking and 
-      camping with my family.</p>
-
-    <h2>Projects</h2>
-    <ul>
-      <li>Mobile budget app using Flutter</li>
-      <li>Command line music player</li>
-      <li>Twitter clone on Android</li>
-    </ul>
-
-    <h2>Experience</h2>
-    <ul>
-      <li><strong>BYU Office of Information Technology</strong><br/>
-        <em>January 2020 - Present<br/>
-        Computer Programmer - App Engineering Team</em>
-        <ul>
-          <li>Developed a data marshaling and transfer API that serves applicant information to BYU partners.</li>
-          <li>Designed and built modular application capsules/modules for the new CES academic admissions
-        application using Svelte, HTML, and JavaScript.</li>
-          <li>Developed API queue service to batch synchronize legacy data into an updated data model and
-        database schema</li>
-        <li>Created Terraform scripts to automate the deployment of new services to AWS</li>
-        <li>Built web services to control and verify authorization for administrative systems, provide
-        configuration information to production systems, and populate archival systems/databases with
-        vital applicant information</li>
-        <li>Worked as team lead over 5 student programmers. Helped them create plans to meet their Sprint
-        goals and reach training milestones</li>
-        </ul>
-      </li>
-      <li><strong>BYU OIT Operations and Support Center</strong><br/>
-        <em>March 2019 - January 2020<br/>
-        Provisioner, Senior Analyst</em>
-        <ul>
-          <li>Provisioned and managed access BYU services and systems</li>
-          <li>Created processes to automatically provision/deprovision all university employees</li>
-          <li>Led groups of 10+ analysts and assisted them in resolving complicated issues.</li>
-        </ul>
-      </li>
-      <li><strong>Vegetronix Inc.</strong><br/>
-        <em>December 2014 - August 2016</strong><br/>
-        Firmware Engineer, Electronics Technician, Electronics Assembler</em>
-        <ul>
-          <li>Designed and programmed firmware for the TI MSP430 line of microcontrollers in the C language</li>
-          <li>Trained new employees in assembly and calibration procedures</li>
-          <li>Daily use of debugging tools such as: multimeters, oscilloscopes, etc.</li>
-          <li>Prototyped PCBs from schematics</li>
-        </ul>
-      </li>
-    </ul>
-
-    <h2>Contact</h2>
-    <ul>
-      <li>Email: brayden.gibbons66@gmail.com</li>
-      <li><a href="https://www.linkedin.com/in/brayden-gibbons-aa056b194/">LinkedIn</a></li>
-      <li><a href="https://github.com/bragibbo">Github</a></li>
-    </ul>
   </body>
 </html>
 
